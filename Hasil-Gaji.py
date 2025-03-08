@@ -29,9 +29,10 @@ if status == "Tetap" or status == "Honor":
         print("NIK: " + nik)
         print("Status: " + status)
         print("Golongan: " + golongan)
-        print("Gaji Pokok: Rp " + format(gaji, ','))
-        print("Bonus Golongan " + golongan + ": Rp " + format(bonus, ','))
-        print("Total Gaji: Rp " + format(total_gaji, ','))
+        print("Gaji Pokok: Rp " + str(gaji))
+        print("Bonus Golongan " + golongan + ": Rp " + str(bonus))
+        print("Total Gaji: Rp " + str(total_gaji))
+
     else:
         print("Golongan tidak valid!")
 else:
